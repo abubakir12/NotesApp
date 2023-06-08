@@ -20,6 +20,7 @@
         android:id="@+id/search_view"
         style="@style/SearchViewStyle"
         android:layout_width="295dp"
+        android:iconifiedByDefault="false"
         android:layout_height="45dp"
         android:layout_gravity="center"
         android:layout_marginTop="37dp"

@@ -17,11 +17,12 @@
             android:id="@+id/title_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
             android:fontFamily="@font/poppins_medium"
             android:singleLine="true"
             android:text="Today’s Workflow"
-            android:textSize="12sp" />
+            android:textSize="18sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,128 +30,143 @@
             android:layout_marginTop="16dp">
 
             <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/first_check_box"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
 
             <TextView
+                android:id="@+id/first_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
                 android:fontFamily="@font/poppins"
                 android:text="Write thoughts on paper"
-                android:layout_marginStart="4dp"
-                android:textSize="6sp"
-                android:layout_gravity="center"/>
+                android:textSize="14sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
 
             <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/second_check_box"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
 
             <TextView
+                android:id="@+id/second_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
                 android:fontFamily="@font/poppins"
                 android:text="Write thoughts on paper"
-                android:layout_marginStart="4dp"
-                android:textSize="6sp"
-                android:layout_gravity="center"/>
+                android:textSize="14sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
 
             <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/third_check_box"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
 
             <TextView
+                android:id="@+id/third_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
                 android:fontFamily="@font/poppins"
                 android:text="Write thoughts on paper"
-                android:layout_marginStart="4dp"
-                android:textSize="6sp"
-                android:layout_gravity="center"/>
+                android:textSize="13sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
 
             <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/four_check_box"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
 
             <TextView
+                android:id="@+id/four_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
                 android:fontFamily="@font/poppins"
                 android:text="Write thoughts on paper"
-                android:layout_marginStart="4dp"
-                android:textSize="6sp"
-                android:layout_gravity="center"/>
+                android:textSize="13sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
 
             <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/fifth_check_box"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
 
             <TextView
+                android:id="@+id/fifth_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
                 android:fontFamily="@font/poppins"
                 android:text="Write thoughts on paper"
-                android:layout_marginStart="4dp"
-                android:textSize="6sp"
-                android:layout_gravity="center"/>
+                android:textSize="14sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
 
             <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/six_check_box"
+                android:layout_width="28dp"
+                android:layout_height="28dp" />
 
             <TextView
+                android:id="@+id/six_check_box_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
                 android:fontFamily="@font/poppins"
                 android:text="Write thoughts on paper"
-                android:layout_marginStart="4dp"
-                android:textSize="6sp"
-                android:layout_gravity="center"/>
+                android:textSize="14sp" />
 
         </LinearLayout>
+
         <TextView
             android:id="@+id/last_edited_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:singleLine="true"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="10dp"
-            android:textSize="6sp"
             android:fontFamily="@font/poppins"
-            android:text="Last edited: 17.12.2021 18:06"/>
-
-
+            android:singleLine="true"
+            android:text="Last edited: 17.12.2021 18:06"
+            android:textSize="13sp" />
 
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>
